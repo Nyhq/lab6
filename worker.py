@@ -12,7 +12,7 @@ def get_api_key() -> str:
     else:
         #local testing
         with open('.key') as f:
-            return f.read()
+            return 'ya29.a0AX9GBdXd99tV2oY34GFPqvWFgeJxCff7GyskA2pxSVsIDQdiVediv9uWBPrLlpYcgLxbA9ZQqNWEhLnKLLMMsnaXlTU_5emSLdxopST7iN3ZqKqFJZBG7Ih4ek0zqq7sMon4NeTevos-Yz_aPfuemu2sLMHNsDOh-BFfk8gyamERQsP85-bB_KUqClLInOdGqqnUs-qkNJno8DQy-n8bDP2lJWuqWu5UBqsrGgaCgYKAWMSARESFQHUCsbCy30x3SLlW5Rk5gsDVM-cwQ0237'
       
 @app.route("/")
 def hello():
